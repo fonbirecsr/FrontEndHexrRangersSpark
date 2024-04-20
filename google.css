@@ -1,0 +1,107 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f4f8;
+}
+
+.login-box {
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 24rem;
+  width: 100%;
+  height: 500px;
+  background: #f0efef;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  color: rgb(24, 23, 23);
+  backdrop-filter: blur(20px);
+}
+
+.google-logo img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  box-shadow: 0 5px 10px -7px #333333;
+  border-radius: 50%;
+}
+
+h2 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  color: #8f9193;
+  margin-top: -15px;
+}
+
+.account-list {
+  margin-top: 2px;
+}
+
+.account-item {
+  display: flex;
+  align-items: center;
+  background-color: #bec1c3;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border-bottom: #bec1c3;
+}
+
+.account-initial {
+  background-color: #6c8fbc;
+  color: #fefefe;
+  margin-left: 10px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.account-details {
+  margin-left: 17px;
+}
+
+h4 {
+  margin-bottom: -15px;
+}
+
+h5 {
+  color: #686969;
+}
+
+.add-account {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: #bec1c3;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-account-icon {
+  background-color: #6b7280;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.add-account:hover,
+.account-item:hover {
+  background-color: #d1d5db;
+}

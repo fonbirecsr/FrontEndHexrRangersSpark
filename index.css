@@ -1,0 +1,124 @@
+.f-r-a-m-e-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    width: 1440px;
+    height: 2775px;
+  }
+  .frame-child,
+  .gundar-1-icon {
+    position: absolute;
+    top: 57px;
+    left: 88px;
+    width: 1440px;
+    height: 1013px;
+    object-fit: cover;
+  }
+  .gundar-1-icon {
+    top: 25px;
+    left: 0;
+    width: 1720px;
+    height: 1161px;
+    z-index: 1;
+  }
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 41px;
+    background-color: rgba(118, 57, 151, 0.91);
+    width: 1678.7px;
+    height: 1081.2px;
+    z-index: 2;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: -43px;
+    left: 1706px;
+    width: 1720px;
+    height: 1186px;
+  }
+  .f-r-a-m-e-root-child {
+    position: absolute;
+    top: -335px;
+    left: 0;
+    border-radius: 11.19px;
+    width: 2086px;
+    height: 1373px;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .f-r-a-m-e-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .welcome-to-spark {
+    margin: 0;
+  }
+  .get-started,
+  .welcome-to-spark-container {
+    font-family: var(--font-poppins);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .welcome-to-spark-container {
+    position: absolute;
+    top: 374px;
+    left: 112px;
+    font-size: 96px;
+    font-weight: 700;
+    display: inline-block;
+    width: 1090px;
+    height: 144px;
+    text-shadow: 0 4px 8.1px rgba(0, 0, 0, 0.5);
+    z-index: 4;
+  }
+  .get-started {
+    position: relative;
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .get-started-wrapper {
+    cursor: pointer;
+    border: 3px solid var(--color-white);
+    padding: 10px 23px;
+    background-color: #000;
+    position: absolute;
+    top: 561px;
+    left: 112px;
+    border-radius: 20px;
+    box-shadow: 145px 214px 72px transparent, 93px 137px 66px rgba(0, 0, 0, 0.01),
+      52px 77px 56px rgba(0, 0, 0, 0.05), 23px 34px 41px rgba(0, 0, 0, 0.09),
+      6px 9px 23px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 240px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .get-started-wrapper:hover {
+    background-color: #333;
+    border: 3px solid #e6e6e6;
+    box-sizing: border-box;
+  }
+  .landing-page {
+    width: 100%;
+    height: 809px;
+    position: relative;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 750px) {
+    .welcome-to-spark-container {
+      font-size: 48px;
+    }
+  }
+  @media screen and (max-width: 450px) {
